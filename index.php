@@ -140,8 +140,9 @@ require_once 'models/timesince.php';
 					<?php if (isset($_GET['to'])) : ?>
 						<p class="text-white">Kepada Yth, Bpk/Ibu/Sdr</p>
 						<h2 style="font-family: Georgia, 'Times New Roman', Times, serif" class="m-0 font-36 text-theme-colored"><u><?= ($_GET['to']) ? $_GET['to'] : 'Tamu Undangan'; ?></u></h2>
-						<p class="text-white ">Di mohon untuk berkenan menghadiri acara pernikahan kami.</p>
-						<button type="button" class="btn bg-theme-colored text-black" id="buka-undangan"></i> Undangan <i class="text-danger fa fa-heart"></i></button>
+						<p class="text-white font-10 ">Diundang di Acara Pernikahan Kami </p>
+						<!-- <p class="text-white ">Di mohon untuk berkenan menghadiri acara pernikahan kami.</p> -->
+						<button type="button" class="btn bg-theme-colored text-black" id="buka-undangan"></i>Buka Undangan <i class="text-danger fa fa-heart"></i></button>
 					<?php else : ?>
 						<div class="" style="padding-top:100px ;">
 							<button type="button" class="btn bg-theme-colored text-black" id="buka-undangan">Buka Undangan <i class="text-danger fa fa-heart"></i></button>
